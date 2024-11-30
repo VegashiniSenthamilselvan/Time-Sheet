@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet Management System</title>
+    <style>
+        body, h1, h2, h3, p, ul, li, form, input {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 1.6;
+            background: white;
+            color: black;
+            padding: 20px;
+            font-size: large;
+        }
+
+        header {
+            background: black;
+            color: white;
+            padding: 10px 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+        }
+
+        nav {
+            background: black;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center; /* Center align navigation items */
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: gray;
+        }
+
+        .search-container {
+            position: absolute;
+            right: 20px;
+            top: 33px; /* Adjusted top position for better alignment */
+            color: gray;
+        }
+
+        .search-input {
+            padding: 8px 40px 8px 20px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 14px;
+            width: 200px;
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 15px;
+            top: 45%;
+            transform: translateY(-50%);
+            color: gray;
+            cursor: pointer;
+        }
+
+        .search-icon::before {
+            content: "\1F50D"; /* Unicode for search symbol */
+            font-size: 16px;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+
+        h2 {
+            margin-top: 30px; /* Add some spacing above each heading */
+        }
+
+        ul {
+            margin-left: 30px; /* Indent unordered list items */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="timesheet.html">About</a></li>
+                <li><a href="time.html">Example</a></li>
+                <li><a href="timecalculator.html">Calculator</a></li>
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <div class="search-icon"></div>
+        </div>
+    </header>
+    <center>
+        <h1>TIME SHEET</h1>
+    </center>
+        <hr>
+
+    <body>
+            <h2>Project Overview</h2>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;This project aims to develop a user-friendly timesheet management system with a focus on automating timesheet calculations and enhancing user experience.
+            Automated calculation of work hours based on employee entries.
+            Integration with payroll systems to ensure accurate and timely payment.
+
+       
+            <h2>Objectives</h2>
+            <br>
+            <ul>
+                <li>&nbsp;Automate timesheet calculations to improve accuracy and efficiency.</li>
+                <li>&nbsp;Enhance user experience with an intuitive interface for entering timesheet data.</li>
+                <li>&nbsp;Facilitate easy viewing and management of timesheet summaries.</li>
+            </ul>
+    
+            <h2>Scope</h2>
+            <br>
+            <p>&nbsp;The scope of this project includes:</p>
+            <ul>
+                <li>&nbsp;Frontend development for creating a responsive and user-friendly interface.</li>
+                <li>&nbsp;Integration of JavaScript for client-side interactions and form validations.</li>
+                <li>&nbsp;Basic CSS styling to ensure a clean and visually appealing layout.</li>
+                <li>&nbsp;Implementation of simple JavaScript functionality to handle form submissions and display timesheet summaries.</li>
+            </ul>
+        </body>
+
+    <footer>
+        <p>&copy; 2050 Timesheet Management System. All rights reversed.</p>
+    </footer>
+</body>
+</html>
